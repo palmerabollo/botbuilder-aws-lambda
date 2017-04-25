@@ -1,6 +1,6 @@
 {
   "name": "botbuilder-aws-lambda",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Helper to deploy your bot as a serverless function (AWS Lambda).",
   "license": "Apache 2.0",
   "repository": "https://github.com/palmerabollo/botbuilder-aws-lambda",
