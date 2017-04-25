@@ -1,6 +1,6 @@
 {
   "name": "botbuilder-aws-lambda",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Helper to deploy your bot as a serverless function (AWS Lambda).",
   "license": "Apache 2.0",
   "repository": "https://github.com/palmerabollo/botbuilder-aws-lambda",
@@ -8,25 +8,11 @@
   "keywords": [
     "bot framework",
     "bot",
-    "aws"
+    "aws",
+    "lambda",
+    "serverless"
   ],
-  "scripts": {
-    "build": "npm run clean && npm run compile",
-    "clean": "rm -fR ./lib",
-    "compile": "tsc",
-    "lint": "tslint './src/**/*.ts'",
-    "prepublish": "npm run build",
-    "prestart": "npm install",
-    "postinstall": "npm run build"
-  },
-  "dependencies": {
-    "botbuilder": "^3.7.0"
-  },
-  "devDependencies": {
-    "@types/node": "^7.0.10",
-    "tslint": "^5.1.0",
-    "typescript": "^2.3.0"
-  },
+  "main": "./lib/index.js",
   "engines": {
     "node": ">=6"
   }
